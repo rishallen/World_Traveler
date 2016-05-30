@@ -1,0 +1,33 @@
+<%= link_to "Go back to Search", search_path %>
+
+<%= form_for(zone) do |f| %>
+  <p>
+    <%= f.label :passangers %>
+    <%= f.text_field :passangers %>
+  </p>
+
+  <p>
+    <%= f.label :origin %>
+    <%= f.text_field :origin %>
+  </p>
+
+  <p>
+    <%= f.label :destination %>
+    <%= f.text_field :destination %>
+  </p>
+
+  <p>
+    <%= f.label :departure_date %>
+    <%= f.text_field :departure_date %>
+  </p>
+
+  <p>
+    <%= f.label :arrival_date %>
+    <%= f.text_field :arrival_date %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+
+<% end %>
