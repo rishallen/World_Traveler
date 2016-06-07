@@ -1,0 +1,21 @@
+<h1>Flights</h1>
+
+<%=  @flights["trips"]["tripOption"].first["slice"].first["segment"].first["flight"]["carrier"] %>
+Flight Number: <%=  @flights["trips"]["tripOption"].first["slice"].first["segment"].first["flight"]["number"] %><br>
+Origin: <%= @flights["trips"]["tripOption"].first["slice"].first["segment"].first["leg"].first["origin"] %>
+Departure Time: <%= @flights["trips"]["tripOption"].first["slice"].first["segment"].first["leg"].first["departureTime"] %><br>
+Destination: <%= @flights["trips"]["tripOption"].first["slice"].first["segment"].first["leg"].first["destination"] %>
+Arrival Time: <%= @flights["trips"]["tripOption"].first["slice"].first["segment"].first["leg"].first["arrivalTime"] %><br>
+Duration: <%= @flights["trips"]["tripOption"].first["slice"].first["segment"].first["leg"].first["duration"] %><br><br>
+
+
+Origin: <%= @flights["trips"]["tripOption"].first["slice"].first["segment"].last["leg"].last["origin"] %>
+Departure Time: <%= @flights["trips"]["tripOption"].first["slice"].first["segment"].last["leg"].last["departureTime"] %><br>
+Destination: <%= @flights["trips"]["tripOption"].first["slice"].first["segment"].last["leg"].last["destination"] %>
+Arrival Time: <%= @flights["trips"]["tripOption"].first["slice"].first["segment"].last["leg"].last["arrivalTime"] %><br>
+Duration: <%= @flights["trips"]["tripOption"].first["slice"].first["segment"].last["leg"].last["duration"] %><br><br>
+
+
+
+Total Time: <%= @flights["trips"]["tripOption"].first["slice"].first["duration"] %><br>
+Price: <%= @flights["trips"]["tripOption"].first["saleTotal"] %><br>

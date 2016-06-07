@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  get 'search/index'
+  get 'search/new' => 'search#new'
+  root 'search#new'
+  post 'search/create' => 'search#create'
+
+  get '/search' => 'search#flight_request'
+
+  get 'demo' => 'search#price_demo'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

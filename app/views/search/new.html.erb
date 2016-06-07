@@ -1,0 +1,15 @@
+<h1>Search for a Flight</h1>
+
+
+<%= form_tag("/search", method: "get") do %>
+  <%= label_tag(:origin, "origin:") %>
+  <%= text_field_tag(:origin) %>
+
+  <%= label_tag(:destination, "destination") %>
+  <%= text_field_tag(:destination) %>
+
+  <%= label_tag(:date, "date") %>
+  <%= text_field_tag(:date) %>
+
+  <%= submit_tag("Search") %>
+<% end %>

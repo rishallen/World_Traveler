@@ -9,7 +9,6 @@ require 'minitest-vcr'
 require 'webmock/minitest'
 require 'minitest/reporters'
 
-require 'active_shipping'
 
 VCR.configure do |c|
  c.cassette_library_dir = 'test/cassettes'
