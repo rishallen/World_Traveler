@@ -24,13 +24,4 @@ class SearchController < ApplicationController
   def flight_request_params
     params.permit([:origin, :destination, :date])
   end
-
-  def price_demo
-
-
-    # make HTTParty request
-    # get response, extract array of prices
-    # @prices = array of prices
-  end
-
 end

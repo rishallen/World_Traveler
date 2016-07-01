@@ -1,0 +1,41 @@
+[{"kind"=>"qpxexpress#sliceInfo", "duration"=>381,
+"segment"=>[
+  {"kind"=>"qpxexpress#segmentInfo",
+   "duration"=>381,
+   "flight"=>{"carrier"=>"B6", "number"=>"287"},
+   "leg"=>[
+    {"kind"=>"qpxexpress#legInfo",
+     "id"=>"LeFB74+IoPzBMAiy",
+     "aircraft"=>"320",
+     "arrivalTime"=>"2016-06-05T10:06-07:00",
+     "departureTime"=>"2016-06-05T06:45-04:00",
+     "origin"=>"BOS",
+     "destination"=>"LAX",
+     "originTerminal"=>"C",
+     "destinationTerminal"=>"3",
+     "duration"=>381,
+     "mileage"=>2604,
+     "secure"=>true}]
+     }
+  ]}, 
+{"kind"=>"qpxexpress#sliceInfo",
+ "duration"=>331,
+ "segment"=> [
+  {"kind"=>"qpxexpress#segmentInfo",
+   "duration"=>331,
+   "flight"=>{"carrier"=>"B6", "number"=>"688"},
+   "leg"=>[
+      {"kind"=>"qpxexpress#legInfo",
+      "id"=>"LpFqUQDQpVHYEV60",
+      "aircraft"=>"320",
+      "arrivalTime"=>"2016-06-07T05:46-04:00",
+      "departureTime"=>"2016-06-06T21:15-07:00",
+      "origin"=>"LAX",
+      "destination"=>"BOS",
+      "originTerminal"=>"3",
+      "destinationTerminal"=>"C",
+      "duration"=>331,
+      "mileage"=>2604,
+      "secure"=>true}
+    ]
+  }]}]

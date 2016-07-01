@@ -1,0 +1,24 @@
+bash commands (terminal language)
+curl is a command to make http requests
+httparty makes this easier
+
+# man = manual
+man curl
+curl(1)                                        Curl Manual                                        curl(1)
+
+NAME
+       curl - transfer a URL
+
+1. This is a post request
+2. @request.json is a file
+3. header
+4. URL that we are sending the post to
+curl -d @request.json --header "Content-Type: application/json" https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyC7C8GzmCjJgZKRl9NSc80BS7Qi6zyCMEQ&limit=10*/
+
+
+
+-d, --data <data>
+              (HTTP) Sends the specified data in a POST request to the HTTP server, in the same way  that
+              a  browser  does when a user has filled in an HTML form and presses the submit button. This
+              will cause curl to pass the data to the server using  the  content-type  application/x-www-
+              form-urlencoded.
